@@ -10,6 +10,7 @@ static int active = 0;  /* is the virtual disk open (active) */
 static int handle;      /* file handle to virtual disk       */
 
 /******************************************************************************/
+/*
 int make_disk(char *name)
 { 
   int f, cnt;
@@ -123,5 +124,4 @@ int block_read(int block, char *buf)
 
   return 0;
 }
-
-
+*/
